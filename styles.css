@@ -1,0 +1,44 @@
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+
+  --dark-cyan: hsl(192, 100%, 9%);
+  --pale-blue: hsl(207, 100%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px 0 40px 0;
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-pink {
+  border: 1px solid var(--pink);
+  color: var(--pink);
+}
+
+.btn-pink:hover {
+  cursor: pointer;
+  color: var(--light-pink);
+}
